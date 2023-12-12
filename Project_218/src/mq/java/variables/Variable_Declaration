@@ -1,0 +1,16 @@
+Variable Declaration:-->
+
+		Note:--> Variable declaration is usedefined
+		
+		Characters       		int abc=100;
+		Characters+Numbers      int ab1=200;
+		Characters_Underscore	int ab_c=400;
+		
+		Note:--> Same declaration we follow for class and method name.
+		
+		
+		invalid declarations:-->
+		
+		With spaces        int ab cd=100;
+		Startwithnumber	   int 10a=200;
+		special characters int a-b=300;

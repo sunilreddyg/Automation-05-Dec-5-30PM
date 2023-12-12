@@ -1,0 +1,93 @@
+Variable Types:-->
+
+	1. Local Variable
+	2. Instant variable
+	3. static variable or Class variable
+	
+	Local Variable:-->
+			Local variables declare inside the method. These
+			variables can't access outside the method
+			
+			
+		Syntax:-->
+			public class Var
+			{
+				void method1()
+				{
+					String name="MINDQ";
+				}
+			
+			}
+			
+			
+	Instant variable:-->
+		Instant variables are global variables we declare 
+		these variable inside the class and outside the method.		
+		
+		note:--> Instant variables declare without static keyword.
+		Syntax:-->
+		
+			public class Var
+			{
+				String name="MINDQ";
+				
+				void method1()
+				{
+					System.out.println(name);
+				}
+				
+				void method2()
+				{
+					System.out.println(name);
+				}
+				
+				static void method3()
+				{
+					System.out.println(new Var().name);
+					
+					String Instname=new Var().name;
+					System.out.println(Instname);
+				}
+			
+			}
+			
+			==> Calling Instant Variable from Outside Class
+			==> Mainmethod:-->
+					Var obj=new Var();
+					Strig Iname=obj.name;
+					System.out.println(Iname);
+		
+		
+Static Variable /Class Variables:-->
+		Static variables are global variables we declare these
+		variables	along with static specifier.	
+		
+		public class Vars
+		{
+				static String name="MINDQ";
+				
+				void method1()
+				{
+					System.out.println(name);
+				}
+				
+				void method2()
+				{
+					System.out.println(name);
+				}
+				
+				static void method3()
+				{
+					System.out.println(name);
+				}
+		}
+		
+		==> Calling static variable from outside the class
+		==> mainmethod:-->
+				String ref=Vars.name;
+				System.out.println(ref);
+		
+		
+		
+		
+			

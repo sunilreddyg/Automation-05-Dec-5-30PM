@@ -1,12 +1,12 @@
 package mq.java.methods;
 
-import mq.java.constrcutor.TestFacebook;
 
 public class MethodCalling 
 {
 	
 	public void method1()
 	{
+		method4(); //Calling static method inside instant method
 		System.out.println("method1 executed");
 	}
 	
@@ -25,6 +25,8 @@ public class MethodCalling
 	public static void method4()
 	{
 		System.out.println("method4 executed");
+		new MethodCalling().method3();  
+		//Calling instant method inside static method...
 	}
 	
 	public static void main(String[] args) 
