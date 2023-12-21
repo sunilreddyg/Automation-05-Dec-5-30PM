@@ -1,0 +1,25 @@
+public class Keywords
+{
+
+	void methodA()
+	{
+		methodC();	//Calling instant method inside instant method	
+	}
+
+	static void methodB()
+	{
+		new Keywords().methodC();     //Calling instant method inside static method
+	}
+
+	void methodC()
+	{
+		methodB();       //Calling static method inside instant method
+	}
+
+	public static void main(String args[])
+	{
+		new Keywords().methodA();
+		methodB();
+		new Keywords().methodC();
+	}
+}

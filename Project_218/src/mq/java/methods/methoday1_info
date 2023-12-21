@@ -1,0 +1,67 @@
+		Enter classname click on Finish.
+
+		Note:--> Classname start with uppercase.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+method:--->
+	=> method describe class behaviour
+	=> Class allow to store set of methods inside class
+	=> Each method allow to store independant behaviour of class
+	=> Method is usefull to store a peace of program releated 
+	to class and allow user to reuse program when ever it is necessary.
+
+	
+Syntax:--->
+
+	public  class SmartPhone	
+	{
+
+		void calling( )
+		{
+		
+		}
+
+		void sendText( )
+		{
+
+		}
+
+	}
+
+
+	Note:-->
+	void  ---->Method type , void does't return any value to method
+
+
+------------------------------------------------------------------------------------------------>
+Statement:-->
+	every method contain set of statements
+	In java programming each statement should end with  <<  ;  >>
+	note:--> variables also end with << ; >>
+
+Syntax:-->
+	public  class SmartPhone	
+	{
+		void sendText()
+		{
+			System.out.println("Add text");
+
+		} 
+	}
+--------------------------------------------------------------------------------------------------------------
+mainmethod:-->
+	* In java programing execution starts from main method
+	* Under main method we  can write statement directly or
+		can call statement using object creation...
+	* All resuable methods can call from main method using object creation.
+
+Syntax:-->
+
+	public  class AppTest
+	{
+		public static  void main(String args[])
+		{
+			System.out.println("hello world!");
+		}
+
+	}

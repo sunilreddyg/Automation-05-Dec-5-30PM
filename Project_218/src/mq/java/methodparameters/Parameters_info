@@ -1,0 +1,47 @@
+Parameters:-->
+		Also called as functional parameters or Method parameters
+		=> Parameters change state of method behaviour
+		
+		Advantages of parameters:-->
+			=> Method reusability[Instead of duplicating methods
+				we can use same method with different input values]
+				
+			=> Data flexibility [User can change any time data from 
+				outside fo the class]
+				
+			=> Avoid hardcoding 
+			
+		Parameters types:-->
+			CallByValue
+			CallByReference
+			
+		CallByValues:--> Passing Datatypes as parameters like
+				[String,int,boolean,double,floag,char ---etc]
+				
+				
+				public class Browser
+				{
+					 public void Open(String browsername)
+					 {
+					 	System.out.prinln(browsername);
+					 }
+					 
+					 public static void main(String args[])
+					 {
+					 		Browser obj=new Browser();
+					 		obj.Open("chrome");
+					 }
+				}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

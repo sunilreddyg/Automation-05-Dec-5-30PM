@@ -1,0 +1,25 @@
+public static void main(String args[])
+{
+
+}
+
+public:-->
+	=> public is a access modifier it will allow any
+		public class information to call..
+		
+	=> Allow any public method or public variable to call
+
+static:-->
+	=> static is a access specifier. It will allow only
+	   static methods to call without object creation.
+
+void:-->
+	=> Void is a method type it doesn't return value
+		[other than void all methods return values]
+
+main:-->
+	=> main is a method name [Only main method will have this name]
+
+String args[]:-->
+	=> Parameters accept by main method in array format..
+------------------------------------------------------------------------->>
